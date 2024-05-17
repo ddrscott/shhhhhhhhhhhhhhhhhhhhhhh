@@ -1,6 +1,6 @@
 import click
 
-from utils import transcribe
+from .utils import transcribe
 
 @click.group()
 def cli():

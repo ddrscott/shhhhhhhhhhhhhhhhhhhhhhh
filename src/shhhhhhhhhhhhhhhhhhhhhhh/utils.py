@@ -1,9 +1,9 @@
+from openai import OpenAI
+
 def transcribe(src):
     """
     Transcribe an audio file to text.
     """
-
-    from openai import OpenAI
 
     client = OpenAI()
 
